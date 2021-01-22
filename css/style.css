@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-center {
+    text-align: center;
+}
+
+button {
+    border-radius: 4px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.facebook-clicker {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+}
