@@ -3,35 +3,45 @@
     padding: 0;
 }
 
-body{
-    font-family: "Oswald", sans-serif;
+html {
+    height: 100%;
 }
 
-p{
+body {
+    padding-top: 56px;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.navbar-brand,
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.logo-image {
+    max-width: 55%;
 }
 
 .div-center {
     text-align: center;
 }
 
-button {
-    border-radius: 4px;
-    padding: 5px;
+.page-contents {
+    flex: 1 0 auto;
 }
 
-h1 {
-    text-align: center;
-    color: #fff;
-    background-color: gray;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.facebook-clicker {
-    position: fixed;
-    right: 30px;
-    top: 30px;
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
